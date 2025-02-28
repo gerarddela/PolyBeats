@@ -1,9 +1,9 @@
 # PolyBeats
 
-**PolyBeats** es un visualizador interactivo de polirritmias que utiliza polígonos animados para representar diferentes subdivisiones rítmicas. Cada polígono sigue su propio tempo y genera un sonido cuando su vértice principal se alinea con el centro.
+**PolyBeats** es un visualizador interactivo para representar polirritmias con polígonos regulares. Esta manera de visualizar las polirritmias se popularizó mucho en algunos bateristas creadores de contenido de Instagram, ya que es una manera muy visual y que ayuda a entender que son las polirritmias en música. Cada polígono genera cierta cantidad de sonidos dependiendo de la cantidad de vertices que lo formen. Se pueden sobreponer hasta 5 poligonos distintos, eligiendo la cantidad de vertices del 0 al 32, a partir de allí ya es como quieras combinar las posibilidades.
 
 ## Características
-- **Visualización dinámica** de polirritmias con polígonos interactivos.  
+- **Visualización dinámica** de polirritmias con polígonos.  
 - **Control de tempo** ajustable de 10 a 360 BPM.  
 - **Selección de subdivisiones rítmicas** de 1 a 32 lados por polígono.  
 - **Sonido sincronizado** con la animación utilizando Tone.js.  
@@ -15,7 +15,7 @@
 polybeats
 │── index.html       # Página principal
 │── style.css        # Estilos del visualizador
-│── audio.js         # Generación de sonidos con Tone.js
+│── audio.js         # Generación de sonidos
 │── script.js        # Lógica de animación y renderizado
 │── utils.js       # Funciones auxiliares
 │── README.md        # Este archivo de documentación
@@ -40,9 +40,9 @@ polybeats
 - **CSS3** para la estética y la experiencia de usuario.
 
 ## Próximas Mejoras
-- Implementación de patrones rítmicos personalizados.
-- Exportación de ritmos a formato MIDI.
-- Soporte para más formas geométricas y variaciones rítmicas.
+- Mejora de bugs y errores.
+- Mejora de la estética y funcionalidad.
+- Nuevos sonidos y opciones de personalización.
 
 ---
 
