@@ -13,11 +13,11 @@
 ## Estructura del Proyecto
 ```
 polybeats
-│── index.html        # Página principal
+│── index.html       # Página principal
 │── style.css        # Estilos del visualizador
 │── audio.js         # Generación de sonidos con Tone.js
 │── script.js        # Lógica de animación y renderizado
-│── 🛠utils.js        # Funciones auxiliares
+│── utils.js       # Funciones auxiliares
 │── README.md        # Este archivo de documentación
 ```
 
