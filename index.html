@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyBeats - Polyrhythm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PolyBeats</h1>
+        <p>Explora polirritmos visuales y sonoros.</p>
+    </header>
+
+    <div id="canvas-container">
+        <canvas id="polyrhythmCanvas"></canvas>
+    </div>
+
+    <div id="controls">
+        <!-- Control de Tempo -->
+        <div id="tempoControl">
+            <label for="tempoSlider">Tempo:</label>
+            <input type="range" id="tempoSlider" min="10" max="360" value="120" step="1">
+            <span id="tempoValue">120 BPM</span>
+        </div>
+
+        
+        <button id="toggleButton" class="pause-button"></button>
+
+        <!-- Botones de colores con selectores ocultos -->
+        <div class="polygon-control" style="background-color: #FF6347;">
+            <span>3</span>
+            <select class="polygonSelector"></select>
+        </div>
+        <div class="polygon-control" style="background-color: #4682B4;">
+            <span>4</span>
+            <select class="polygonSelector"></select>
+        </div>
+        <div class="polygon-control" style="background-color: #32CD32;">
+            <span>5</span>
+            <select class="polygonSelector"></select>
+        </div>
+        <div class="polygon-control" style="background-color: #FFD700;">
+            <span>6</span>
+            <select class="polygonSelector"></select>
+        </div>
+        <div class="polygon-control" style="background-color: #FF00FF;">
+            <span>7</span>
+            <select class="polygonSelector"></select>
+        </div>
+    </div>
+
+    <!-- Cargar Tone.js antes de los scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/tone@14.8.35/build/Tone.min.js"></script>
+    <script src="audio.js"></script>
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
